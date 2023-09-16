@@ -4,11 +4,23 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
     min-height: 100vh;
     background: linear-gradient(#2b1055,#7597de);
+}
+
+/* For hiding scrollbar  */
+body::-webkit-scrollbar{
+    display: none;
+}
+body {
+    -ms-overflow-style: none;
+}
+html {
+    scrollbar-width: none;
 }
 
 header{
@@ -63,6 +75,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 section::before{
@@ -95,11 +108,12 @@ section img#mountains_front{
 
 #text{
     position: absolute;
+    right: -350px;
     color: #fff;
+    padding: 0px 10px;
     white-space: nowrap;
     font-size: 7.5vw;
     z-index: 9;
-    
 }
 
 #btn{

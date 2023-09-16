@@ -21,7 +21,7 @@
         <img src="/Pictures/moon.png" id="moon">
         <img src="/Pictures/mountains_behind.png" id="mountains_behind">
         <h2 id="text">Welcome👋🏻</h2>
-        <a href="#" id="btn">Explore</a>
+        <a href="#sec" id="btn">Explore</a>
         <img src="/Pictures/mountains_front.png" id="mountains_front">
     </section>
     <div class="sec" id="sec">
@@ -37,7 +37,18 @@
         let text = document.getElementById('text');
         let btn = document.getElementById('btn')
         let mountains_front = document.getElementById('mountains_front');
+        let header = document.querySelector('header')
 
+        window.addEventListener('scroll',function(){
+            let value = window.scrollY;
+            stars.style.left = value*0.25 + 'px';
+            moon.style.top = value*1.05 + 'px';
+            mountains_behind.style.left = value*0.5 + 'px';
+            mountains_front.style.left = value*0 + 'px';
+            text.style.marginRight = value*4 + 'px';
+            btn.style.marginTop = value*1.0 + 'px';
+            header.style.top = value*0.5 + 'px';
+        })
     </script>
 </body>
 </html>

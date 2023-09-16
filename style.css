@@ -35,6 +35,19 @@ header{
     z-index: 10000;
 }
 
+header .logo, .logo_pic{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mypic{
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+
+}
+
 header .logo{
     color: #fff;
     font-weight: 700;

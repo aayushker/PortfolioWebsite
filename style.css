@@ -191,8 +191,8 @@ header ul li a:hover, header ul li a.active {
   }
   .menu .toggle{
     position:relative;
-    height:60px;
-    width:60px;
+    height:30px;
+    width:30px;
     background:#fff;
     border-radius:50%;
     box-shadow:0 3px 4px rgba(0,0,0,0.15);
@@ -228,8 +228,8 @@ header ul li a:hover, header ul li a.active {
     position:relative;
     display:flex;
    transform:rotate(calc(360deg/-8 * var(--i)));
-    width:60px;
-    height:60px;
+    width:30px;
+    height:30px;
     background-color:#FFF;
     display:flex;
     align-items:center;

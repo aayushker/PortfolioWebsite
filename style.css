@@ -175,10 +175,9 @@ header ul li a:hover, header ul li a.active {
 
 .round_social{
     position: fixed;
-    right: 1em;
-    bottom: 1em;
+    right: 0px;
+    bottom: 0px;
     z-index: 1000000;
-    display: inline-block;
 }
 .menu{
     position:sticky;

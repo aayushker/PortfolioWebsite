@@ -176,12 +176,13 @@ header ul li a:hover, header ul li a.active {
 .round_social{
     position: fixed;
     right: 1em;
-    bottom:1em;
+    bottom: 1em;
     z-index: 1000000;
+    display: inline-block;
 }
 .menu{
     position:sticky;
-    bottom: 8em;
+    bottom: 5em;
     width:280px;
     height:280px;
     display:flex;
@@ -191,8 +192,8 @@ header ul li a:hover, header ul li a.active {
   }
   .menu .toggle{
     position:relative;
-    height:30px;
-    width:30px;
+    height:40px;
+    width:40px;
     background:#fff;
     border-radius:50%;
     box-shadow:0 3px 4px rgba(0,0,0,0.15);
@@ -216,20 +217,20 @@ header ul li a:hover, header ul li a.active {
     left:0;
     list-style:none;
     transition:0.5s;
-    transform:rotate(calc(360deg/8 * var(--i)));
+    transform:rotate(calc(360deg/6 * var(--i)));
     transform-origin:140px;
     scale:0;
     transition-delay: calc(0.05s * var(--i));
   }
   .menu.active li{
-    scale:1;
+    scale:.5;
   }
   .menu li a{
     position:relative;
     display:flex;
-   transform:rotate(calc(360deg/-8 * var(--i)));
-    width:30px;
-    height:30px;
+   transform:rotate(calc(360deg/-6 * var(--i)));
+    width:60px;
+    height:60px;
     background-color:#FFF;
     display:flex;
     align-items:center;
@@ -270,6 +271,7 @@ header ul li a:hover, header ul li a.active {
 }
 
 .sec{
+    width: 100%;
     position: relative;
     padding: 100px;
     background: #1c0522;
@@ -296,14 +298,14 @@ header ul li a:hover, header ul li a.active {
 
 .sec ul{
     display: flex;
-    width: 40%;
+    width: 100%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #skills_div{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .projects{

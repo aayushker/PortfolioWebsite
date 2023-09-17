@@ -10,7 +10,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/Pictures/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 </head>
+
+
 <body>
+
     <header>
         <div class="logo_pic">
             <img src="/Pictures/My Pic Latest.png" alt="aayushker" class="mypic">
@@ -18,12 +21,46 @@
         </div>
         <ul>
             <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#sec">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </header>
-    <section>
+
+    <div class="round_social">
+      <div class="menu">
+          <div class="toggle">
+            <ion-icon name="share-social"></ion-icon>
+            </div>
+          
+              <li style="--i:0;--clr:#1877f2">
+              <a href="https://www.facebook.com/aayushker/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+            </li>
+            <li style="--i:1;--clr:#25d366">
+              <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+            </li>
+            <li style="--i:2;--clr:#1da1f2">
+              <a href="https://twitter.com/aayushker" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+            </li>
+            <li style="--i:3;--clr:#FF5733">
+              <a href="#"><ion-icon name="logo-reddit"></ion-icon></a>
+            </li>
+            <li style="--i:4;--clr:#0a66c2">
+              <a href="https://www.linkedin.com/in/aayushker/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </li>
+            <li style="--i:5;--clr:#c32aa3">
+              <a href="https://instagram.com/aayushkersingh" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            </li>
+            <li style="--i:6;--clr:#1b1e21">
+              <a href="https://github.com/aayushker/" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            </li>
+            <li style="--i:7;--clr:#ff0000">
+              <a href="https://youtube.com/aayushker/" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+            </li>
+        </div>
+    </div>
+
+    <section class="landing_sec">
         <img src="/Pictures/stars.png" id="stars">
         <img src="/Pictures/moon.png" id="moon">
         <img src="/Pictures/mountains_behind.png" id="mountains_behind">
@@ -31,13 +68,169 @@
         <a href="#sec" id="btn">Explore</a>
         <img src="/Pictures/mountains_front.png" id="mountains_front">
     </section>
+
+    <section class="social">
+        <div class="socials">
+            <div class="div_social">
+              <a href="https://www.linkedin.com/in/aayushker/" target="_blank" class="social_icon_link">
+                <img src="./icons/linkedin-ico.png" alt="icon" class="social_icon"/>
+              </a>
+            </div>
+            <div class="div_social">
+              <a href="https://github.com/aayushker/" target="_blank" class="social_icon_link">
+                <img
+                  src="./icons/github-ico.png" alt="icon" class="social_icon"/>
+              </a>
+            </div>
+            <div class="div_social">
+              <a href="https://twitter.com/aayushker" target="_blank" class="social_icon_link">
+                <img src="./icons/twitter-ico.png" alt="icon" class="social_icon"/>
+              </a>
+            </div>
+            <!-- <div class="div_social">
+                <a href="https://www.facebook.com/aayushker/" target="_blank" class="social_icon_link">
+                  <img src="./icons/fb-icon.png"  style="width: 5em;" alt="icon" class="social_icon"/>
+                </a>
+              </div> -->
+                <div class="div_social">
+                    <a href="https://instagram.com/aayushkersingh" target="_blank"class="social_icon_link">
+                    <img src="./icons/insta-ico.png" alt="icon" class="social_icon "/>
+                    </a>
+                </div>
+    </section>
+    
     <div class="sec" id="sec">
         <h2>About Me</h2>
-        <p>
-            Hello everyone, my name is Aayushker Singh and I belong to Lucknow. I am a passionate Frontend WebDeveloper who loves designing resposive websited with working animations to make it more user interactive.
-            I am currently doing BTech in Computer Science Enginnering(AI) from K.I.E.T Group of Instituitions.
+        <br><br><br>
+        <p id="about_me">
+            Hello everyone👋🏻,  my name is <strong>Aayushker Singh</strong> and I am from India. I am a passionate <strong>Frontend WebDeveloper</strong> who loves designing responsive websites with working animations to make it more user interactive. <br>
+            I am currently pursuing BTech in CSE(AI) branch from <strong>KIET Group of Instituitions</strong>. <br>
+        </p>
+        <br><br><br><br><br><br>
+        <p> 
+            <h3>My Skills</h3>
+            <br>
+            <div id="skills_div">
+                <ul>
+                    <li><a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a></li>
+                    <li><a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a></li> 
+                    <li><a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/></a></li> 
+                    <li><a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a></li>
+                <li> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a></li> 
+                    <li><a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a></li>
+                </ul>
+            </div>
+        </p>
+        <br><br><br><br><br><br>
+        <p id="project">
+            <h3>Projects</h3>
+            <div class="projects">
+                <p>I am currently working on making a clone of <strong>Amazon.com </strong>website as a beginning step. <br> In the coming time I will be making more clones of websites like <strong>Flipkart</strong> and <strong>Hotstar</strong> for practice</p>
+            </div>
         </p>
     </div>
+    
+    <section id="contact" class="contact sec-pad dynamicBg">
+        <h3>Contact Me</h3>
+        <div class="main-container">
+        <span class="heading-sec__sub heading-sec__sub--lt">
+              For further queries and recommendations, feel free to contact me by filling this form.
+              <br> I will try to respond as soon as possible.
+            </span>
+          <div class="contact__form-container">
+            <form action="mailto:singhaayushker@gmail.com" method="post" enctype="text/plain" class ="contact__form">
+              <div class="contact__form-field">
+                <label class="contact__form-label" for="name">Name</label>
+                <input
+                  required
+                  placeholder="Enter Your Name"
+                  type="text"
+                  autocomplete="on"
+                  class="contact__form-input"
+                  name="name"
+                  id="name"
+                />
+              </div>
+              <div class="contact__form-field">
+                <label class="contact__form-label" for="email">Email</label>
+                <input
+                  required
+                  placeholder="Enter Your Email"
+                  type="text"
+                  autocomplete="off"
+                  class="contact__form-input"
+                  name="email"
+                  id="email"
+                />
+              </div>
+              <div class="contact__form-field">
+                <label class="contact__form-label" for="message">Message</label>
+                <textarea
+                  required
+                  cols="30"
+                  rows="10"
+                  class="contact__form-input"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  autocomplete="off"
+                  id="message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn--theme contact__btn">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <footer class="main-footer">
+            <div class="main-container">
+              <div class="main-footer__upper">
+                <div class="main-footer__row main-footer__row-1 footer_social">
+                  <h2 class="heading heading-sm main-footer__heading-sm">
+                    <span>Socials</span>
+                  </h2>
+                  <div class="main-footer__social-cont">
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/aayushker/">
+                      <img
+                        class="main-footer__icon"
+                        src="./icons/linkedin-ico.png"
+                        alt="icon"
+                      />
+                    </a>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/aayushker/">
+                      <img
+                        class="main-footer__icon"
+                        src="./icons/github-ico.png"
+                        alt="icon"
+                      />
+                    </a>
+                    <a target="_blank" rel="noreferrer" href="https://twitter.com/aayushker">
+                      <img
+                        class="main-footer__icon"
+                        src="./icons/twitter-ico.png"
+                        alt="icon"
+                      />
+                    </a>
+                    <a target="_blank" rel="noreferrer" href="https://instagram.com/aayushkersingh">
+                      <img
+                        class="main-footer__icon main-footer__icon--mr-none"
+                        src="./icons/insta-ico.png"
+                        alt="icon"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="main-footer__row_main footer__row-2">
+                  <h4 class="heading_heading-sm_text-lt">Aayushker Singh</h4>
+                  <p class="main-footer__short-desc">
+                    An enthusiastic <strong>Frontend WebDeveloper</strong>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </footer>
 
     <!-- scipt code -->
     <script>
@@ -60,5 +253,8 @@
             header.style.top = value*0.5 + 'px';
             })
     </script>
+    <!-- partial -->
+  <script src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js'></script>
+  <script src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js'></script><script  src="./script.js"></script>
 </body>
 </html>

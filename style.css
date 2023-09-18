@@ -52,8 +52,10 @@ html {
 header{
     position: absolute;
     top: 0;
-    left: 0;
+    left: 0;    
     width: 100%;
+    /* max-width: 1800px; /* Set a maximum width for the header */
+    margin: 0 auto; /* Center align the header */
     padding: 30px 100px;
     display: flex;
     justify-content: space-between;
